@@ -232,6 +232,8 @@ body{
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    /* padding: 20px 40px 20px 40px;
+    width: 250px; */
 }
 
 
@@ -244,7 +246,7 @@ body{
     color: aliceblue;
     background-color: #692DE9;
     padding: 20px 40px 20px 40px;
-    width: 240px;
+    width: 250px;
 }
 
 .container_4-3:hover{
@@ -263,55 +265,56 @@ body{
 .container_5{
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content:space-around;
     width: 1440px;
-    height: 700px;
+    height: 1480px;
     margin: auto;
-    background-color: #010101;
+    background-color: #010101;/*aqui é um degrade*/
 }
 
 .container_5-1{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
-    color: aliceblue
+    color: aliceblue;
 }
 
 .container_5-2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
-    color: aliceblue
+    padding: 70px;
 }
 
 .container_5-2-1{
-    border: 1px aliceblue solid;
-    width: 360px;
-    padding: 15px;
-    margin: 20px;
+    width: 590px;
+    height: 320px;
+    border: 1px #5E28D0 solid;
+    background-color: #010101;
+    margin: 20px 0px 20px 40px;
 }
 
 .container_5-2-1-1{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     color: aliceblue;
-    width: 360px;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
 }
 
 .container_5-2-1-2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
     color: aliceblue;
-    width: 360px;
+    width: 100%;
+    padding: 10px;
 }
 
 .container_5-2-1-2-1{
@@ -319,7 +322,12 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items:flex-start;
     color: aliceblue;
-    width: 100px;
+    font-size: 10px;
+    width: 70px;
+    height: 22px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #5E28D0;
 }
