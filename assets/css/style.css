@@ -48,7 +48,6 @@ body{
     background-image: url("../images/pexels-pixabay-2159\ 1.png");
     padding: 40px;
     height: 700px;
-    width: 1440px;
     margin: auto;
 }
 
@@ -115,7 +114,6 @@ body{
     background-color: #010101;
     padding: 40px;
     height: 700px;
-    width: 1440px;
     margin: auto;
 }
 
@@ -161,7 +159,6 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 1440px;
     height: 700px;
     margin: auto;
 }
@@ -204,7 +201,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    width: 1440px;
     height: 700px;
     margin: auto;
     background-color: #010101;
@@ -264,7 +260,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content:space-around;
-    width: 1440px;
     height: 1480px;
     margin: auto;
     background-color: #010101;/*aqui é um degrade*/
@@ -330,3 +325,47 @@ body{
     background-color: #5E28D0;
 }
 
+.container_6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #010101;
+    color: aliceblue;
+    height: 700px;
+}
+
+.container_6-2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    /*border: 1px aliceblue solid; /*Esta borda não exite*/
+}
+
+.container_6-2-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 590px;
+    height: 214px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px #5E28D0 solid;
+}
+
+.container_6-2-1-2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.container_6-2-1-2 ul{
+    margin: 10px 0px 0px 15px;
+}
