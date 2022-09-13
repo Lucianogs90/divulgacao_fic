@@ -192,6 +192,7 @@ body{
 }
 
 .container_3-2-2 li{
+    list-style-position: inside;
     list-style-image: url("../images/ok.svg");
     padding: 10px;
     margin-left: 10px;
@@ -344,7 +345,6 @@ body{
     width: 100%;
     padding: 20px;
     margin: 20px;
-    /*border: 1px aliceblue solid; /*Esta borda não exite*/
 }
 
 .container_6-2-1{
@@ -368,4 +368,87 @@ body{
 
 .container_6-2-1-2 ul{
     margin: 10px 0px 0px 15px;
+}
+
+.container_7{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: #692DE9;
+    height: 700px;
+}
+
+.container_7-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width: 50%;
+}
+
+.container_7-1-1{
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto 0px auto;
+}
+
+.container_7-1-2{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto 0px 160px;
+}
+
+.container_7-1-2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px 10px 10px 0px;
+}
+
+.container_7-label{
+    padding: 5px 0px 5px 0px;
+}
+
+.container_7-input{
+    height: 35px;
+    width: 355px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0px 5px 0px;
+}
+
+.container_7-link{
+    display: flex;
+    justify-content: center;
+    width: 360px;
+    height: 50px;
+    padding: 15px;
+    margin-top: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #371879;
+}
+
+.container_7-link:hover{
+    background-color: #210c4e;
+    cursor: pointer;
+    color: goldenrod;
+}
+
+.container_7-2{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    justify-items:flex-start;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 380px;    
+}
+
+.container_7-list li{
+    text-align: justify;
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin: 0 160px 60px 0px;
 }
