@@ -18,7 +18,7 @@ body{
     flex-direction: row;
     justify-items: center;
     padding: 40px;
-    background-color: #D9D9D9;
+    background-color: #f1f1f1;
 }
 
 .nav{
@@ -35,6 +35,9 @@ body{
 
 .nav a:hover{
     color: goldenrod;
+    text-decoration: underline;
+    text-decoration-color: #5E28D0;
+    text-decoration-thickness: 3px;
 }
 
 .container_1{
@@ -58,12 +61,15 @@ body{
 
 .container_1-botao{
     display: flex;
-    padding: 20px 40px 20px 40px;
+    justify-content: space-between;
+    /* padding: 20px 40px 20px 40px; */
     background-color: #692DE9;
 }
 
 .container_1-botao a{
+    display: flex;
     text-decoration: none;
+    padding: 20px 40px 20px 40px;
     color: aliceblue;
 }
 
@@ -72,12 +78,17 @@ body{
     cursor: pointer;
 }
 
+.container_1-botao img{
+    padding: 5px;
+    background-color: #692DE9;
+}
+
 .container_1-caixa{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: #03030380;
+    background: #030303cc;
     padding: 40px;
     height: 184px;
     width: 360px;
@@ -198,7 +209,6 @@ body{
     justify-content:space-between;
     height: 700px;
     margin: auto;
-    background-color: #010101;
 }
 
 .container_4-foguete{
@@ -206,7 +216,7 @@ body{
     flex-direction: row-reverse;
     align-items: flex-end;
     justify-content: right;
-    padding: 60px;
+    margin: 120px;
 }
 
 .container_4-paragrafo{
@@ -249,7 +259,7 @@ body{
     flex-direction: column;
     align-items:flex-start;
     justify-content: right;
-    padding: 60px;
+    margin: 120px;
 }
 
 .container_5{
@@ -318,7 +328,7 @@ body{
     height: 22px;
     padding: 5px;
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #5E28D0;
 }
 
@@ -328,7 +338,6 @@ body{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    background-color: #010101;
     color: aliceblue;
     height: 700px;
 }
@@ -353,6 +362,7 @@ body{
     padding: 20px;
     margin: 10px;
     border: 1px #5E28D0 solid;
+    border-radius: 10px;
 }
 
 .container_6-caixa-conteudo{
