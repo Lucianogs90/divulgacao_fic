@@ -175,7 +175,7 @@ body{
     justify-content: center;
     width: 774px;
     height: 700px;
-    background-color: #692DE9;
+    background: linear-gradient(129.28deg, #692DE9 0%, rgba(105, 45, 233, 0.6) 0.01%, rgba(105, 45, 233, 0.5) 100%);
     color: aliceblue;
 }
 
@@ -234,6 +234,7 @@ body{
     text-decoration: none;
     color: aliceblue;
     background-color: #692DE9;
+    border-radius: 5px;
     padding: 20px 40px 20px 40px;
     width: 250px;
 }
@@ -281,6 +282,7 @@ body{
     width: 590px;
     height: 320px;
     border: 1px #5E28D0 solid;
+    border-radius: 5px;
     background-color: #010101;
     margin: 20px 0px 20px 40px;
 }
@@ -316,6 +318,7 @@ body{
     height: 22px;
     padding: 5px;
     margin: 5px;
+    border-radius: 5px;
     background-color: #5E28D0;
 }
 
