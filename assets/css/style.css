@@ -34,7 +34,6 @@ body{
 }
 
 .nav a:hover{
-    color: goldenrod;
     text-decoration: underline;
     text-decoration-color: #5E28D0;
     text-decoration-thickness: 3px;
@@ -62,7 +61,6 @@ body{
 .container_1-botao{
     display: flex;
     justify-content: space-between;
-    /* padding: 20px 40px 20px 40px; */
     background-color: #692DE9;
 }
 
@@ -71,6 +69,9 @@ body{
     text-decoration: none;
     padding: 20px 40px 20px 40px;
     color: aliceblue;
+    font-size: 24px;
+    width: 360px;
+    height: 64px;
 }
 
 .container_1-botao:hover{
@@ -78,9 +79,14 @@ body{
     cursor: pointer;
 }
 
-.container_1-botao img{
-    padding: 5px;
+.container_1-botao p{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
     background-color: #692DE9;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .container_1-caixa{
